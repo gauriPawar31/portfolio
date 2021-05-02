@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'portfolio 123';
+  name = 'Chuchi';
+  time = new Date()
+  setNameValue(newName) {
+    console.log(newName)
+    this.name = newName
+  }
+
 }
